@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Lista 4.0 - Operadores Matem·ticos e Vari·veis 2
+// Lista 4.0 - Operadores Matem√°ticos e Vari√°veis 2
 // Autor: Vitor Inacio Borges
 // Dia: 31/03/2025
 
 int main()
 {
-    // ExercÌcio 1
-/*
+    // Exerc√≠cio 1
+
     float desconto, valor;
 
     printf("Escreva o valor do produto: ");
@@ -20,7 +20,7 @@ int main()
     printf("O valor do seu produto com o desconto aplicado e: %0.2f\n", valor);
     printf("O valor do desconto foi: %0.2f\n\n", desconto);
 
-    // ExercÌcio 2
+    // Exerc√≠cio 2
 
     float bruto, liquido, inss, valor_hora_aula, num_aulas;
     printf("Digite o numero de aulas dadas em um mes: ");
@@ -33,7 +33,7 @@ int main()
     liquido = bruto - (inss/100);
     printf("Seu salario liquido e: %0.2f\n\n", liquido);
 
-    // ExercÌcio 3
+    // Exerc√≠cio 3
 
     float C, F;
     printf("Escreva a temperatura em celsius hoje: ");
@@ -41,7 +41,7 @@ int main()
     F = (C*9 + 160) / 5;
     printf("A temperatura hoje em Fahrenheits e: %0.2f\n\n", F);
 
-    // ExercÌcio 4
+    // Exerc√≠cio 4
 
     float altura, raio, volume;
     const float PI = 3.14159;
@@ -52,7 +52,7 @@ int main()
     volume = PI * (raio*raio) * altura;
     printf("O volume da lata em cm cubicos e: %0.4f\n\n", volume);
 
-    // ExercÌcio 5
+    // Exerc√≠cio 5
 
     int num, denom;
     float divisao;
@@ -67,10 +67,10 @@ int main()
         printf("A divisao dos dois numeros sera: %0.2f\n\n", divisao);
     }
 
-    // ExercÌcio 6
+    // Exerc√≠cio 6
 
 
-    // ExercÌcio 7
+    // Exerc√≠cio 7
 
     int horas, minutos, horas_em_minutos, total_minutos;
     printf("Informe as horas e minutos (hh:mm): ");
@@ -79,7 +79,7 @@ int main()
     total_minutos = horas_em_minutos + minutos;
     printf("Os minutos totais passados desde a meia noite sao %d minutos\n\n", total_minutos);
 
-    // ExercÌcio 8
+    // Exerc√≠cio 8
 
     int horas2, minutos2, horas_em_segundos, minutos_em_segundos, segundos_totais;
     printf("Informe as horas e minutos (hh:mm): ");
@@ -89,7 +89,7 @@ int main()
     segundos_totais = horas_em_segundos + minutos_em_segundos;
     printf("Os segundos totais passados desde a meia noite sao %d segundos\n\n", segundos_totais);
 
-    // ExercÌcio 9
+    // Exerc√≠cio 9
 
     float capital, taxa_de_juros, rendimento_anual, rendimento_mensal, total_mensal, total_anual;
     printf("Informe o deposito para um investimento: ");
@@ -105,7 +105,7 @@ int main()
     printf("O valor total adquirido por mes do investimento (com um unico deposito de comeco) sera: %0.2f reais\n", total_mensal);
     printf("O valor total adquirido por ano do investimento (com um unico deposito de comeco) sera: %0.2f reais\n", total_anual);
 
-    // ExercÌcio 10
+    // Exerc√≠cio 10
 
     float salario_minimo, salario_pessoa, num_de_salarios_minimos;
     printf("Escreva seu salario a seguir: ");
@@ -114,7 +114,7 @@ int main()
     num_de_salarios_minimos = salario_pessoa / salario_minimo;
     printf("O numero de salarios minimos que voce ganha e: %0.2f\n\n", num_de_salarios_minimos);
 
-    // ExercÌcio 11
+    // Exerc√≠cio 11
 
     float velocidade, tempo, distancia, litros;
     printf("Considere que um carro faz 12km por litro.\nDigite a velocidade em km/h e o tempo em horas que demora para chegar em seu destino: ");
@@ -123,8 +123,8 @@ int main()
     litros = distancia / 12;
     printf("A distancia que o veiculo percorre e %0.1f kilometros e consome %0.1f litros\n\n", distancia, litros);
 
-    // ExercÌcio 12
-*/
+    // Exerc√≠cio 12
+
     float salario_minimo2, kW_residencia, real_kW, custo_residencia, custo_residencia_desconto, desconto;
     printf("Digite o salario minimo vigente: ");
     scanf("%f", &salario_minimo2);
