@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1742400279 source:c:\users\vitor\desktop\eng. de software\codeblocks\lista 1.01\main.c
+	<stdio.h>
+	<stdlib.h>
+
