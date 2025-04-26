@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
+// Lista de Exercicios 08 - Repetição / While
+// Aluno: Vitor Inacio Borges
+// Data: 26/04/2025
+
 int main(){
 
     // Exercicio 1
