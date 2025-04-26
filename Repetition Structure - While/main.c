@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main(){
-/*
+
     // Exercicio 1
     int num1_1;
     while (num1_1 <= 50){
@@ -216,17 +216,44 @@ int main(){
         cont1_20++;
     }
     printf("O maior desses numeros e %d e o menor deles e %d", maior1_20, menor1_20);
-*/
+
     // Exercicio 21
 
-
+    int num1_21, cont1_21 = 0, maior1_21, segundo_maior1_21, menor1_21;
+    while (cont1_21 < 10){
+        printf("Escreva 1 numero: ");
+        scanf("%d", &num1_21);
+        if (cont1_21 == 0){
+            maior1_21 = segundo_maior1_21 = num1_21;
+        } else {
+            if (num1_21 > maior1_21){
+                segundo_maior1_21 = maior1_21;
+                maior1_21 = num1_21;
+            } else if ((num1_21 > segundo_maior1_21) || (maior1_21 == segundo_maior1_21)){
+                segundo_maior1_21 = num1_21;
+            }
+        }
+        cont1_21++;
+    }
+    printf("O maior numero e %d e o segundo maior e %d", maior1_21, segundo_maior1_21);
 
     // Exercicio 22
 
-
+    int limite_inferior1_22, limite_superior1_22, cont1_22 = 0, soma_pares1_22 = 0;
+    printf("Escreva os limites inferior e superior de um intervalo aberto: ");
+    scanf("%d %d", &limite_inferior1_22, &limite_superior1_22);
+    cont1_22 = limite_inferior1_22 + 1;
+    while (cont1_22 < limite_superior1_22){
+        if ((cont1_22 % 2) == 0){
+            printf("%d\n", cont1_22);
+            soma_pares1_22 += cont1_22;
+        }
+        cont1_22++;
+    }
+    printf("A soma dos pares e %d", soma_pares1_22);
 
     // Exercicio 23
-/*
+
     int num1_23, cont1_23 = 1;
     printf("Escreva um numero: ");
     scanf("%d", &num1_23);
@@ -269,21 +296,23 @@ int main(){
         iteracao1_25++;
     }
     printf("Temos %d numeros maiores que 30 e %d numeros menores que 30", maior1_25, menor1_25);
-*/
-/*
+
+
     // Exercicio 26
 
-    int num1_26, iteracao1_26 = 0, soma_positivos1_26, cont_negativos1_26;
+    int num1_26, iteracao1_26 = 0, soma_positivos1_26 = 0, cont_negativos1_26 = 0;
     while (iteracao1_26 < 20){
         printf("Escreva 1 numero: ");
         scanf("%d", &num1_26);
-        if ((num1_26 > 0) || (num1_26 == 0)){
-            soma_positivos1_26 += num1_26;
-        } else {
+        if (num1_26 > 0){
+            soma_positivos1_26 = soma_positivos1_26 + num1_26;
+        } else if (num1_26 < 0){
             cont_negativos1_26++;
+        } else {
+            soma_positivos1_26 = soma_positivos1_26 + num1_26;
         }
         iteracao1_26++;
     }
-    printf("A soma dos positivos e %d e temos %d numeros negativos");
-*/
+    printf("A soma dos positivos e %d e temos %d numeros negativos", soma_positivos1_26, cont_negativos1_26);
+
 }
