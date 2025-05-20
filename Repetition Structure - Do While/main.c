@@ -88,7 +88,9 @@ int main()
         scanf("%f", &preco);
         total += preco * quantidade;
     } while (1);
-    printf("O valor total fica R$%0.2f", total);
+    if (total > 0){
+        printf("O valor total fica R$%0.2f", total);
+    }
 
 
 
