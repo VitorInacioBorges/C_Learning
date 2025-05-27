@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1748353919 source:c:\users\vitor\desktop\pastas\eng. de software\c exercises\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
