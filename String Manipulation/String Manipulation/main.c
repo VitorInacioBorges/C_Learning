@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Aluno: Vitor Inacio Borges
+// Professor: Marcos
+// Data: 16/06/2025
+
 int main()
 {
     // Exercicio 1
