@@ -9,7 +9,7 @@
 int main()
 {
     // Exercicio 1
-/*
+
     int i=0, j=0, matriz[3][3], menor;
     for (i=0; i<3; i++){
         for (j=0; j<3; j++){
@@ -69,11 +69,7 @@ int main()
     for (i=0; i<4; i++){
         for (j=0; j<4; j++){
             scanf("%d", &matriz[i][j]);
-        }
-    }
-    for (i=0; i<4; i++){
-        for (j=0; j<4; j++){
-                if (matriz[i][j] > 10) maioresQue10++;
+            if (matriz[i][j] > 10) maioresQue10++;
         }
     }
     printf("Temos %d numeros maiores que 10!", maioresQue10);
@@ -85,11 +81,7 @@ int main()
     for (i=0; i<4; i++){
         for (j=0; j<4; j++){
             scanf("%d", &matriz[i][j]);
-        }
-    }
-    for (i=0; i<4; i++){
-        for (j=0; j<4; j++){
-                if (matriz[i][j] < 0) negativos++;
+            if (matriz[i][j] < 0) negativos++;
         }
     }
     printf("Temos %d numeros negativos!", negativos);
@@ -101,21 +93,26 @@ int main()
     for (i=0; i<3; i++){
         for (j=0; j<3; j++){
             scanf("%d", &matriz[i][j]);
-        }
-    }
-    for (i=0; i<3; i++){
-        for (j=0; j<3; j++){
-                if (i == j) soma += matriz[i][j];
+            if (i == j) soma += matriz[i][j];
         }
     }
     printf("A soma de todos os valores da diagonal principal e: %d", soma);
 
-    */
+
     // Exercicio 7
+
+    int i, j, matriz[3][3], soma;
+    for (i=0; i<3; i++){
+        for(j=0; j<3; j++){
+            scanf("%d", matriz[i][j]);
+            if ((i+j)==2) soma+=matriz[i][j];
+        }
+    }
+    printf("A soma da diagonal secundaria dessa matriz e: %d", soma);
 
 
     // Exercicio 8
-/*
+
     int i=0, j=0, matriz[10][10];
     for (i=0; i<10; i++){
         for (j=0; j<10; j++){
@@ -130,5 +127,4 @@ int main()
         }
         printf("\n");
     }
-    */
 }
