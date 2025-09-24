@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757086298 source:c:\users\vitor\desktop\pastas\eng. de software\c exercises\recursion\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+
