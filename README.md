@@ -5,8 +5,6 @@ Repositório de estudos e exercícios em **linguagem C**, cobrindo desde conceit
 Os exercícios foram desenvolvidos principalmente usando a **IDE Code::Blocks**, por isso alguns diretórios podem conter arquivos adicionais (`.exe`, `.layout`, `.o`).  
 👉 **Os arquivos relevantes para estudo são os `.c`.**
 
----
-
 ## 📚 Conteúdos abordados
 
 O repositório está organizado por pastas, cada uma focada em um conceito específico da linguagem C:
@@ -49,22 +47,20 @@ O repositório está organizado por pastas, cada uma focada em um conceito espec
 - **Printf Tests**  
   Testes e experimentos com `printf`
 
----
-
 ## 🗂️ Estrutura do repositório
 
 Cada pasta normalmente contém:
 - Arquivos `.c` → **código fonte principal**
 - Arquivos auxiliares do Code::Blocks (podem ser ignorados para estudo)
-
+  
+```bash
 Exemplo:
 Pointers/
 ├── main.c
 ├── pointers.c
 ├── pointers.exe
 ├── pointers.layout
-
----
+```
 
 ## ▶️ Como usar este repositório
 
@@ -73,12 +69,11 @@ Pointers/
 3. Compile usando:
    - Code::Blocks **ou**
    - GCC no terminal:
-     ```bash
-     gcc arquivo.c -o programa
-     ./programa
-     ```
-
----
+     
+```bash
+gcc arquivo.c -o programa
+./programa
+```
 
 ## 🎯 Objetivo do repositório
 
@@ -87,23 +82,17 @@ Pointers/
 - Consolidar conceitos de programação estruturada
 - Evoluir gradualmente para tópicos mais complexos
 
----
-
 ## 🛠️ Tecnologias
 
 - Linguagem: **C**
 - IDE utilizada: **Code::Blocks**
 - Compilador: **GCC**
 
----
-
 ## 📌 Observações
 
 - Este repositório tem fins **educacionais**
 - O foco está na **clareza e aprendizado**, não em código otimizado para produção
 - A organização reflete a evolução dos estudos ao longo do tempo
-
----
 
 ## 📄 Licença
 
